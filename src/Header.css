@@ -1,0 +1,55 @@
+.header{
+    height: 5em;
+    border-bottom: 1px solod black;
+    display: flex;
+    align-items: center;
+    background-color: #e8e8f1;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.header__leftLogo{
+object-fit: contain;
+height: 3em;
+margin-left: 20px;
+
+}
+.header__left>h2{
+    margin: 15px;
+}
+
+.header__center{
+    display: flex;
+    align-items: center;
+    flex: 1;
+
+}
+.header__center>h5{
+    margin: 15px;
+}
+
+.header__right{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.header__right>h4{
+    margin: 15px;;
+}
+.header__right>button{
+    background-color: red;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px;
+
+}
